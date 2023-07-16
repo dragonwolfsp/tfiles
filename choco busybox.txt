@@ -1,0 +1,8 @@
+first:
+choco install busybox
+second:
+make folder c:\tools\busybox
+third:
+add folder to path
+last:
+run as admin: busybox --install c:\tools\busybox
