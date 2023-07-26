@@ -1,0 +1,1 @@
+oscdimg.exe -m -o -u2 -udfver102 -bootdata:2#p0,e,bs:\images\winbuild\boot\etfsboot.com#pEF,e,bs:\images\winbuild\efi\microsoft\boot\efisys.bin s:\images\winbuild s:\images\customWin_x64.iso
