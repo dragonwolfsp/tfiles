@@ -1,0 +1,2 @@
+post-up iptables -t nat -A PREROUTING -i interfacename -p protocol -m multiport --dports portlist -j DNAT --to vmipaddress
+    post-down iptables -t nat -D PREROUTING -i interfacename -p protocol -m multiport --dports portlist -j DNAT --to vmipaddress
