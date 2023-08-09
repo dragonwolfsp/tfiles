@@ -1,0 +1,4 @@
+#send
+sox -q -t waveaudio -d -t wav -|ssh user@remote "sox -t wav - -d -q"
+#reciev
+ssh user@remote "sox -d -q -t wav -"|sox -t wav - -q -t waveaudio -d
