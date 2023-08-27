@@ -1,0 +1,1 @@
+args: -netdev 'type=user,id=net0,hostname=myhostname,hostfwd=tcp::6837-:6837,hostfwd=udp::3389-:3389' -device 'virtio-net-pci,mac=BE:C5:2D:EA:07:0C,netdev=net0,bus=pci.0,addr=0x12,id=net0,bootindex=300'
