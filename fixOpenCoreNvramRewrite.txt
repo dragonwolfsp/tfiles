@@ -1,0 +1,6 @@
+If trying to stop open core from rewriting nvram, set  LauncherOption to one of the following
+System
+Disabled
+if wanting nvram to be overwritten ,set to:
+Auto
+Short

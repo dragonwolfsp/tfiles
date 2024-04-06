@@ -1,3 +1,3 @@
 sudo brl fetch arch
 sudo strat -r arch pacman -S --needed --noconfirm base-devel alsa-utils espeakup xorg xorg-xinit xorg-server networkmanager mate mate-extra orca pipewire-audio pipewire-pulse pipewire-jack
-insure mate-session is in .xinitrc
+ensure mate-session is in .xinitrc
